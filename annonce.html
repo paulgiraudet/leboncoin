@@ -1,0 +1,185 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Dépot d'annonce</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+  <!--[if lte IE 9]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+  <![endif]-->
+
+  <!-- Add your site or application content here -->
+  <header>
+    <nav>
+      <a href="#"><img src="img/logo.svg" alt="logo leboncoin"></a>
+      <a class="menuPhone" href="#">MENU</a>
+      <ul id="menuNav">
+        <li><a href="#"><img src="img/logo.svg" alt="logo leboncoin"></a></li>
+        <li><a href="#">DÉPOSER UNE ANNONCE</a></li>
+        <li><a href="#">OFFRES</a></li>
+        <li><a href="#">DEMANDES</a></li>
+        <li><a href="#">MES FAVORIS</a></li>
+        <li><a href="#">BOUTIQUES</a></li>
+        <li><a href="#">MESSAGES</a></li>
+        <li><a class="button_connect" href="#"><i class="fas fa-user-alt"></i> Se connecter</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="main-annonce">
+    <h1>Déposer une annonce</h1>
+
+    <div class="votre_annonce">
+      <h2>Votre annonce</h2>
+      <div class="semi_annonce">
+      <div class="left_annonce">
+
+        <div class="category">
+          <h3>Catégorie *</h3>
+          <select name="choix" form="choix">
+            <option value="choix1">"Choisissez une catégorie"</option>
+          </select>
+        </div>
+
+        <div class="status">
+          <h3>Vous êtes un *</h3>
+          <input type="checkbox" id="particulier" checked>
+          <label for="particulier">Particulier</label>
+          <input type="checkbox" id="professionnel">
+          <label for="professionnel">Professionnel</label>
+        </div>
+
+        <div class="law">
+          <p>Si vous agissez à titre professionnel, vous devez créer un Compte professionnel. A défaut, en application de l’article L 132-2 du Code de la consommation qui sanctionne les pratiques commerciales trompeuses, vous encourez notamment une peine d’emprisonnement de 2 ans et une amende de 300 000 euros. Pour plus d'informations, consultez vos droits et obligations.</p>
+        </div>
+
+        <div class="type">
+          <h3>Type d'annonce : *</h3>
+          <input type="checkbox" id="offres" checked>
+          <label for="offres">Offres</label>
+          <input type="checkbox" id="demandes">
+          <label for="demandes">Demandes</label>
+        </div>
+
+        <div class="title_annonce">
+          <h3>Titre de l'annonce</h3>
+          <input type="text" id="title_ann" name="title_ann" placeholder="">
+        </div>
+
+        <div class="text_annonce">
+          <h3>Texte de l'annonce</h3>
+          <input type="text" id="texte_ann" name="texte_ann" placeholder="">
+        </div>
+
+        <div class="price_annonce">
+          <h3>Prix</h3>
+          <input type="text" id="price" name="price" placeholder="">
+        </div>
+
+        <p class="photo_annonce"><strong>Photos :</strong> Une annonce avec photo est 7 fois plus consultée qu'une annonce sans photo</p>
+      </div>
+
+      <div class="right_annonce"></div>
+
+    </div>
+      <div class="photos">
+        <img src="img/photo1.png" alt="photo1">
+        <img src="img/photo2.png" alt="photo2">
+        <img src="img/photo3.png" alt="photo3">
+        <img src="img/photo4.png" alt="photo4">
+      </div>
+    </div>
+
+    <div class="localisation">
+      <h2>Localisation</h2>
+      <div class="semi_loca">
+      <div class="left_loca">
+        <div class="ville">
+          <h3>Ville ou code postal *</h3>
+          <input type="text" id="ville" name="ville" placeholder="">
+        </div>
+
+        <div class="adresse">
+          <h3>Adresse</h3>
+          <input type="text" id="voie" name="voie" placeholder="Voie ou numéro + voie">
+          <input type="button" id="valider" name="valider" value="Valider mon adresse">
+        </div>
+
+        <div class="info_adresse">
+          <p>Complétez votre adresse et les personnes utilisant la recherche autour de soi trouveront plus facilement votre annonce.
+  Si vous ne souhaitez pas renseigner votre adresse exacte, indiquez votre rue sans donner le numéro. Cette information ne sera conservée que le temps de la publication de votre annonce.</p>
+        </div>
+      </div>
+
+      <div class="right_loca">
+        <img src="img/map_france.png" alt="carte de la France">
+      </div>
+    </div>
+    </div>
+
+    <div class="infos">
+      <h2>Vos informations</h2>
+
+      <div class="main-infos">
+      <div class="pseudo_annonce">
+        <h3>Pseudo *</h3>
+        <input type="text" id="pseudo" name="pseudo" placeholder="">
+      </div>
+
+      <div class="email_annonce">
+        <h3>E-mail</h3>
+        <input type="email" id="email" name="email" placeholder="">
+      </div>
+
+      <div class="phone_annonce">
+        <h3>Téléphone *</h3>
+        <input type="tel" id="phone" name="phone" placeholder="">
+      </div>
+    </div>
+    <div class="checkit">
+      <ul>
+        <li><input type="checkbox" id="hide">
+      <label for="hide">Masquer le numéro de téléphone dans l'annonce.</label></li>
+
+        <li><input type="checkbox" id="stranger" checked>
+      <label for="stranger">Je ne souhaite pas être sollicité par des sociétés étrangères au site leboncoin.fr</label></li>
+    </ul>
+    </div>
+    </div>
+
+    <p class="obligatoire">Champs obligatoires *</p>
+
+    <a class="button_send" href="#">Valider</a>
+  </div>
+  <footer class="footer_annonce">
+    <p>leboncoin 2006 - 2018</p>
+  </footer>
+
+  <script src="js/vendor/modernizr-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+</body>
+
+</html>

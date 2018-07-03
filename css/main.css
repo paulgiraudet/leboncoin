@@ -113,6 +113,7 @@ header{
   padding-right:5%; */
   position:fixed;
   top:0;
+   z-index:10;
 }
 header img{
   width:150px;
@@ -345,6 +346,7 @@ footer select{
   vertical-align: bottom;
   position: relative;
   top: -1px;
+  z-index:1;
 }
 .law{
   background-color: #ffeebf;
@@ -447,6 +449,7 @@ footer select{
   vertical-align: bottom;
   position: relative;
   top: -1px;
+  z-index:1;
 
 }
 .checkit ul{
